@@ -24,6 +24,12 @@ export function PublicNav() {
             Explore
           </Link>
           <Link
+            href="/join"
+            className="text-body-medium text-text-secondary hover:text-text-primary transition-colors px-4 py-2 hidden md:block"
+          >
+            Join
+          </Link>
+          <Link
             href="/login"
             className="text-body-medium text-accent-primary border border-accent-primary px-4 py-2 rounded-button hover:bg-accent-primary/15 transition-colors"
           >

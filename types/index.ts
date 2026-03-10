@@ -280,7 +280,8 @@ export interface SendMessageRequest {
 export interface CursorPage<T> {
   content: T[]
   nextCursor: string | null
-  hasMore: boolean
+  hasNext: boolean
+  size: number
 }
 
 // ============================================================
